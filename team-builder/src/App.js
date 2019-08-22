@@ -19,8 +19,10 @@ function App() {
         <h1>
           Team of the Century!
         </h1>
+        
+                  <TeamListForm  addNewMember={addNewMember} />
+
       </header>
-          <TeamListForm  addNewMember={addNewMember} />
           {/* line above connects to line 9-11 above to create the new member info */}
           {/* everything below in the set of brackets is creating the work that then puts the result into TeamCard component */}
           { 

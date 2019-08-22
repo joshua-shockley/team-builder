@@ -13,7 +13,9 @@ import React, { useState } from 'react';
     return (
         <div>
         <form onSubmit={submitForm}>
-            <div className="theFormName">        
+         <fieldset>
+            <div className="theFormName">  
+                <h3>Add A Team Member Here</h3>      
                 <label htmlFor="name">Name: </label>
                 <input
                 type="text"
@@ -44,6 +46,7 @@ import React, { useState } from 'react';
                 />
              </div>
         <button className="form-button" type="submit">Add A Team Member</button>
+        </fieldset>
         </form>
         </div>
     );
