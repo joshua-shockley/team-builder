@@ -23,6 +23,7 @@ import React, { useState } from 'react';
                 placeholder="Full Name"
                 value={member.name}
                 onChange={changeHandler}
+                required
                 />
             </div>
             <div className="theFormEmail">
@@ -33,6 +34,7 @@ import React, { useState } from 'react';
                 placeholder="Email"
                 value={member.email}
                 onChange={changeHandler}
+                required
                 />
              </div>
              <div className="theFormRole">
@@ -43,6 +45,7 @@ import React, { useState } from 'react';
                 placeholder="Role"
                 value={member.role}
                 onChange={changeHandler}
+                required
                 />
              </div>
         <button className="form-button" type="submit">Add A Team Member</button>

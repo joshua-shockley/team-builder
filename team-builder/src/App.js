@@ -4,7 +4,7 @@ import TeamCard from './TeamCard.js';
 import './App.css';
 import data from './data.js';
 
-console.log(data);
+// console.log(data);
 function App() {
     const [tMembers, setTMembers] = useState(data);
     const addNewMember = member =>{
@@ -19,9 +19,7 @@ function App() {
         <h1>
           Team of the Century!
         </h1>
-        
-                  <TeamListForm  addNewMember={addNewMember} />
-
+          <TeamListForm  addNewMember={addNewMember} />
       </header>
           {/* line above connects to line 9-11 above to create the new member info */}
           {/* everything below in the set of brackets is creating the work that then puts the result into TeamCard component */}
